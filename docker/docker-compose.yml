@@ -17,7 +17,8 @@ services:
       postgres_pass: let-me-in
       postgres_db: graph-node
       ipfs: 'ipfs:5001'
-      ethereum: 'mainnet:http://13.233.101.71:8989'
+      ethereum: 'mainnet:https://rpc.xinfin.network'
+      #      ethereum: 'mainnet:https://eth-mainnet.alchemyapi.io/v2/oiUJxVgkLs6JMGjW9BvX7-Ha6e9nJj4t'
       RUST_LOG: info
   ipfs:
     image: ipfs/go-ipfs:v0.4.23
