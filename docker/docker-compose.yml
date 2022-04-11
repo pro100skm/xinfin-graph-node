@@ -19,7 +19,7 @@ services:
       ipfs: 'ipfs:5001'
       ethereum: 'mainnet:https://rpc.xinfin.network'
       #      ethereum: 'mainnet:https://eth-mainnet.alchemyapi.io/v2/oiUJxVgkLs6JMGjW9BvX7-Ha6e9nJj4t'
-      RUST_LOG: info
+      RUST_LOG: debug
   ipfs:
     image: ipfs/go-ipfs:v0.4.23
     ports:
